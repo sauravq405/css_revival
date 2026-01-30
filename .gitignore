@@ -1,0 +1,18 @@
+# Compiled Binaries
+*.exe
+*.o
+*.out
+*.mp3
+*.mp4
+
+# Folders
+build/
+output/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+.idea/
