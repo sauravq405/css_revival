@@ -8,3 +8,30 @@ p {
   background-color: grey;
   color: black;
 }
+#p1 {
+  color: blue;
+}
+#p2 {
+  color: green;
+}
+#p3 {
+  color: red;
+}
+#p4 {
+  color: yellow;
+}
+.odd{
+  color: black;
+}
+.even{
+  color: blue;
+}
+.font-consolas{
+  font-family: "consolas", sans-serif;
+}
+.font-sans-serif{
+  font-family: "sans-serif", "consolas";
+}
+.font-press-start-2p{
+  font-family: "Press Start 2p", "consolas", sans-serif;
+}
