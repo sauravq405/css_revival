@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(51, 204, 191);
+  background-color: rgb(235, 242, 241);
 }
 h1 {
-  color: white;
+  color: black;
 }
 p {
   background-color: grey;
@@ -27,7 +27,7 @@ p {
   color: blue;
 }
 .font-consolas{
-  font-family: "consolas", sans-serif;
+  font-family: "consolas", sans-serif; /* 1st actual, 2nd contingency */
 }
 .font-sans-serif{
   font-family: "sans-serif", "consolas";
@@ -35,3 +35,84 @@ p {
 .font-press-start-2p{
   font-family: "Press Start 2p", "consolas", sans-serif;
 }
+.font-text-decoration{
+  font-family: "consolas", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.font-text-decoration-wavy{
+  font-family: "consolas", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: wavy underline;
+}
+.font-text-decoration-dotted{
+  font-family: "consolas", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: dotted underline;
+}
+.paragraph-with-borders-solid{
+  
+  border-style: solid;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px; /* border - radius is for rounding. higher the number, higher the rounding*/
+  padding: 5px; /* Add little bit of space between text and border*/
+
+}
+.paragraph-with-borders-dashed{
+  
+  border-style: dashed;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px; /* border - radius is for rounding. higher the number, higher the rounding*/
+  padding: 5px; /* Add little bit of space between text and border*/
+
+}
+.border-with-navigation{
+  
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: double;
+  border-right-style: double;
+  border-left-width: 10px;
+  border-left-color: silver;
+
+}
+.background-color-black{
+  background-color: black;
+
+}
+.background-color-white{
+  background-color: white;
+
+}
+.background-linear-gradient{
+  background:linear-gradient(to top, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.header-background{
+  background:linear-gradient(to right, white, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
+.paragraph-background{
+  background:linear-gradient(to right, white, skyblue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
+.background-image{
+
+}
+
+
+
