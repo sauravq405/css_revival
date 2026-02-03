@@ -115,10 +115,13 @@ p {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
+   background-size: cover;
 }
 
 .background-image-live-url{
   background-image: url("https://preview.redd.it/xz4akbdcl7q61.jpg?width=1080&crop=smart&auto=webp&s=ad2b512ba4178bab3be06082b702bf14fa0cb572");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
